@@ -1,7 +1,7 @@
 import torch.optim as optim
 import env as grounding_env
 
-from models import *
+from models1 import *
 from torch.autograd import Variable
 
 import logging
