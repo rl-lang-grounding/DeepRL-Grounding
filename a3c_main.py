@@ -6,7 +6,7 @@ import torch
 import torch.multiprocessing as mp
 
 import env as grounding_env
-from models import A3C_LSTM_GA
+from models1 import A3C_LSTM_GA
 from a3c_train import train
 from a3c_test import test
 
