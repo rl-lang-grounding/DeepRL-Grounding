@@ -5,7 +5,7 @@ import time
 import logging
 
 import env as grounding_env
-from models import A3C_LSTM_GA
+from models1 import A3C_LSTM_GA
 
 from torch.autograd import Variable
 from constants import *
