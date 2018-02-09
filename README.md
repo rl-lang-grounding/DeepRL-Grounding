@@ -21,7 +21,7 @@ For training a A3C-LSTM agent with 32 threads:
 python a3c_main.py --num-processes 32 --evaluate 0
 ```
 The code will save the best model at `./saved/model_best`.
-``` 
+
 To test the trained model
 ```
 python a3c_main.py --evaluate 2 --load saved/model_best --visualize 1
